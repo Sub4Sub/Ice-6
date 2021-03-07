@@ -29,7 +29,7 @@
           loadContent(activeLink);
 
           $(`#${activeLink} a`).addClass('active');
-          window.history.replaceState("","", activeLink);
+          window.history.replaceState("", activeLink);
         
           document.title = activeLink;
 
@@ -64,7 +64,7 @@
       window.history.replaceState("", activeLink, activeLink);
 
       document.title = activeLink;
-
+      
         loadHeader(activeLink);
         loadContent(activeLink);
         loadFooter();
